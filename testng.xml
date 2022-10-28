@@ -1,0 +1,16 @@
+<suite name="selenium">
+    <test name="testSeleniumActions">
+        <parameter name="userNumber" value="1"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="session_3.AuthenticationFormTests"/>
+            <!--  <class name="session_4.BrowserNavigation"/>      -->
+            <!--  <class name="session_4.DropDown"/>               -->
+            <!--  <class name="session_5.JavaScriptTests"/>        -->
+            <!--  <class name="session_5.DynamicLoadingTests"/>    -->
+            <!--  <class name="session_6.AdvancedActions"/>        -->
+            <!--  <class name="session_7.ExtentDemo"/>             -->
+        </classes>
+    </test>
+</suite>
+        <!--  Suite  -->
